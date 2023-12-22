@@ -28,7 +28,7 @@ body {
 }
 
 #content {
-    margin: 0 20px;
+    margin: 0 25px;
     font-family: Outfit, Arial, sans-serif;
     color: hsl(0, 0%, 100%);
 }
@@ -46,30 +46,68 @@ body {
 #price-time {
     display: flex;
     font-family: Outfit, Arial, sans-serif;
+    margin-left: 25px;
 }
 
 #eth {
     display: flex;
-    margin: 20px;
+    align-items: center;
 }
 
 #eth img {
-    
+    width: 11px;
+    height: 18px;
 }
 
 #eth h4 {
     color: hsl(178, 100%, 50%);
+    padding-left: 7px;
 }
 
 #time {
     display: flex;
-    margin: 30px;
-    
+    margin: 20px 54px;
+    align-items: center;
+}
+
+#time img {
+    width: 17px;
+    height: 17px;
 }
 
 #time h4 {
-    display: flex;
     font-weight: 400;
     font-size: 18px;
     color: hsl(215, 51%, 70%);
+    padding-left: 7px;
+}
+
+#avatar {
+    width: 85%;
+    height: auto;
+    margin-left: 20px;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    
+}
+
+#avatar img {
+    width: 35px;
+    height: auto;
+    margin: 20px 3px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+#avatar h5 {
+    font-family: Outfit, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+#avatar h5 span {
+    color: hsl(0, 0%, 100%);
 }
